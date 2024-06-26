@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="316.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="87.0" layoutY="109.0" text="Product Name">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="193.0" text="Product Price">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="147.0" text="Product Quantity">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="41.0" text="Add Product" textFill="#e60606">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pname" layoutX="236.0" layoutY="107.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="pquantity" layoutX="236.0" layoutY="145.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="pprice" layoutX="236.0" layoutY="191.0" prefHeight="25.0" prefWidth="161.0" />
+      <Button fx:id="loginButtonClick" layoutX="200.0" layoutY="240.0" mnemonicParsing="false" text="Login" textFill="#e90ce9">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

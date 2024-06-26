@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx_home_screen.HomeScreenController">
+   <children>
+      <Label layoutX="131.0" layoutY="14.0" prefHeight="35.0" prefWidth="145.0" text="   Home Screen" textFill="#f81d05">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="addUserButton" layoutX="125.0" layoutY="79.0" mnemonicParsing="false" onAction="#addUserButtonClick" prefHeight="36.0" prefWidth="157.0" style="-fx-background-color: E033FF;" text="Add User">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="addProductButton" layoutX="125.0" layoutY="129.0" mnemonicParsing="false" onAction="#addProductButtonClick" prefHeight="36.0" prefWidth="157.0" style="-fx-background-color: #33ECFF;" text="Add Product">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="addLogoutButton" layoutX="125.0" layoutY="227.0" mnemonicParsing="false" onAction="#addLogoutButtonClick" prefHeight="36.0" prefWidth="157.0" style="-fx-background-color: #987AF7;" text="Logout">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
